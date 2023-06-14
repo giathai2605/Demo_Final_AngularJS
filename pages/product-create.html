@@ -1,0 +1,50 @@
+<section class="login_box_area section_gap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="login_form_inner">
+          <h3>Add new Product</h3>
+          <form class="row login_form mw-100" method="post" >
+            <div class="col-md-12 form-group">
+              <input
+                type="text"
+                class="form-control"
+                ng-model="productName"
+                placeholder="Product name"
+              />
+            </div>
+  
+
+            <div class="col-md-12 form-group">
+              <input
+                type="text"
+                class="form-control"
+                ng-model="productPrice"   
+                placeholder="Price"
+              />
+            </div>
+   
+
+            <div class="col-md-12 form-group">
+              <input
+                type="text"
+                class="form-control"
+                ng-model="categoryName"     
+                placeholder="Category"
+              />
+            </div>
+     
+            <div class="col-md-12 form-group text-center">
+              <button
+                type="button"
+                class="primary-btn"
+                ng-click="onSubmit()">
+                Add
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

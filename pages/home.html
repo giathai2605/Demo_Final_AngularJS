@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="table-responsive">
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row">
+          <div class="col-sm-5">
+            <h2>Product <b style="color: #fff">Management</b></h2>
+          </div>
+          <div class="col-sm-7">
+            <a href="#products/create" class="btn btn-secondary">
+              <span>Add New Product</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Category Name</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="item in products">
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.categoryName}}</td>
+            <td>{{item.price}}</td>
+
+            <td>
+              <a
+                href="#products/edit/{{item.id}}"
+                class="settings"
+                title="Edit"
+                data-toggle="tooltip"
+                >Update</a
+              >
+              <a
+                href="#products/delete/{{item.id}}"
+                class="delete"
+                title="Delete"
+                data-toggle="tooltip"
+                >Delete</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<table class="table table-striped table-hover">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="item in categorys">
+      <td>{{item.id}}</td>
+      <td>{{item.name}}</td>
+    </tr>
+  </tbody>
+</table>

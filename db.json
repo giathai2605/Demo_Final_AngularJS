@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "categoryName": "Loai 355555",
+      "name": "product3444",
+      "price": "103$",
+      "id": 3
+    },
+    {
+      "categoryName": "Loai 4",
+      "name": "product32",
+      "price": "13$",
+      "id": 4
+    },
+    {
+      "categoryName": "sdfsdf",
+      "name": "sdfsdf",
+      "price": "sdfsdf",
+      "id": 5
+    },
+    {
+      "categoryName": "l,mkd",
+      "name": "11111111111",
+      "price": "9990",
+      "id": 6
+    },
+    {
+      "categoryName": "loai 83",
+      "name": "hungcv",
+      "price": "4444",
+      "id": 8
+    },
+    {
+      "categoryName": "fff",
+      "name": "3",
+      "price": "ff",
+      "id": 10
+    },
+    {
+      "categoryName": "33333",
+      "name": "33333",
+      "price": "333333",
+      "id": 12
+    },
+    {
+      "categoryName": "2r2r3",
+      "name": "33rr",
+      "price": "rr3",
+      "id": 13
+    },
+    {
+      "categoryName": "12",
+      "name": "sddsd4",
+      "price": "sd4",
+      "id": 14
+    },
+    {
+      "categoryName": "aa",
+      "name": "ada",
+      "price": "34",
+      "id": 15
+    }
+  ]
+}
